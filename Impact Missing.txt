@@ -1,1 +1,0 @@
-,EQP.[query_plan].value(N'(/ShowPlanXML/BatchSequence/Batch/Statements/StmtSimple/QueryPlan/MissingIndexes/MissingIndexGroup/@Impact)[1]','[decimal]') as Impact,
