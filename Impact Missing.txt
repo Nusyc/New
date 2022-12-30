@@ -1,0 +1,3 @@
+WITH XMLNAMESPACES(DEFAULT N'http://schemas.microsoft.com/sqlserver/2004/07/showplan',N'http://schemas.microsoft.com/sqlserver/2004/07/showplan' AS ShowPlan)
+
+,EQP.[query_plan].value(N'(/ShowPlanXML/BatchSequence/Batch/Statements/StmtSimple/QueryPlan/MissingIndexes/MissingIndexGroup/@Impact)[1]','[decimal]') as Impact,
